@@ -244,6 +244,7 @@ public class EnhancedBiomesMod
 
 		MinecraftForge.EVENT_BUS.register(new BonemealHandler());
 		MinecraftForge.EVENT_BUS.register(new UseHoeEventHandler());
+		FMLCommonHandler.instance().bus().register(new AchievementEventHandler());
 
 		if(seasons) FMLCommonHandler.instance().bus().register(new SeasonTickHandler());
 

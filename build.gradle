@@ -16,9 +16,13 @@ buildscript {
 }
 
 apply plugin: 'forge'
+apply plugin: 'java'
 
 version = project.modversion
 archivesBaseName = "EnhancedBiomes-" + project.mcversion
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
 
 minecraft {
     version = project.mcversion + "-" + project.forgeversion + "-" + project.mcversion
