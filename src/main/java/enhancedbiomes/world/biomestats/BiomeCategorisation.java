@@ -32,7 +32,7 @@ public enum BiomeCategorisation {
 		else if(isBiomeOfAllType(biome, HOT, DRY)) return SAND;
 		else if(isBiomeOfAnyType(biome, OCEAN)) return SEA;
 		else if(isBiomeOfAnyType(biome, MOUNTAIN)) return MOUNTAINS;
-		else if(isBiomeOfAnyType(biome, NETHER)) return VOLCANO;
+		else if(isBiomeOfAnyType(biome, MOUNTAIN, WASTELAND, HOT, DRY)) return VOLCANO;
 		else if(isBiomeOfAnyType(biome, SWAMP, RIVER)) return WETLAND;
 		else if(isBiomeOfAnyType(biome, SNOWY)) return ICE;
 		

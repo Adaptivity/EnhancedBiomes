@@ -50,7 +50,7 @@ public class BiomeTypes {
 		registerBiomeType(biomeSnowDesert, 				COLD, SNOWY, SANDY);							
 		registerBiomeType(biomePolarDesert, 			COLD, SNOWY, WASTELAND);  																				
 		registerBiomeType(biomeSnowyRanges, 			COLD, MOUNTAIN, HILLS, SNOWY, FOREST);
-		registerBiomeType(biomeVolcano, 				NETHER, WASTELAND);
+		registerBiomeType(biomeVolcano, 				MOUNTAIN, WASTELAND, HOT, DRY);
 		registerBiomeType(biomeWasteLands, 				DRY, WASTELAND);																				
 		registerBiomeType(biomeRockHills, 				WASTELAND, MOUNTAIN);
 		registerBiomeType(biomeBasin, 					WASTELAND);
