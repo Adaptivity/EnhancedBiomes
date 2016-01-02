@@ -483,3 +483,6 @@ itemGroup.enhancedBiomesMineral=Enhanced Biomes: Минералы
 # Generator Types
 generator.typeEB=Enhanced Biomes
 generator.typeOneBiome=Одиночный биом
+
+# KeyBindings
+enhancedbiomes.keybinding.togglebiomeinformation=Переключить инфо. о биомах

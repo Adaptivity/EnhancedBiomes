@@ -483,3 +483,6 @@ itemGroup.enhancedBiomesMineral=Enhanced Biomes - Mineral
 # Generator Types
 generator.typeEB=Enhanced Biomes
 generator.typeOneBiome=Single Biome
+
+# KeyBindings
+enhancedbiomes.keybinding.togglebiomeinformation=Toggle Biome Information
