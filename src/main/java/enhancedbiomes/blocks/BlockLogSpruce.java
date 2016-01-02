@@ -30,7 +30,6 @@ public class BlockLogSpruce extends BlockRotatedPillar
 	protected BlockLogSpruce() {
 		super(Material.wood);
 		this.setCreativeTab(CreativeTabs.tabBlock);
-		//Blocks.fire.setFireInfo(this, 5, 5);
 		this.setBlockTextureName("log");
 	}
 

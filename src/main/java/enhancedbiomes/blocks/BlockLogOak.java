@@ -30,7 +30,6 @@ public class BlockLogOak extends BlockRotatedPillar
 	protected BlockLogOak() {
 		super(Material.wood);
 		this.setCreativeTab(CreativeTabs.tabBlock);
-		//Blocks.fire.setFireInfo(this, 5, 5);
 		this.setBlockTextureName("log");
 	}
 

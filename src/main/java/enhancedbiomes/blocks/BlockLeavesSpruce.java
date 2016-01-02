@@ -36,7 +36,6 @@ public class BlockLeavesSpruce extends BlockLeavesBase implements IShearable
 		this.setCreativeTab(CreativeTabs.tabDecorations);
 		this.setBlockTextureName("leaves");
 		this.setLightOpacity(1);
-		//Blocks.fire.setFireInfo(this, 30, 60);
 	}
 
 	@SideOnly(Side.CLIENT)

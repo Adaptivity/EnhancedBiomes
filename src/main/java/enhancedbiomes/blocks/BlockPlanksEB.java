@@ -28,7 +28,6 @@ public class BlockPlanksEB extends Block
 		super(Material.wood);
 		this.setCreativeTab(CreativeTabs.tabBlock);
 		this.textureName = "wood";
-		//Blocks.fire.setFireInfo(this, 5, 20);
 	}
 
 	@SideOnly(Side.CLIENT)

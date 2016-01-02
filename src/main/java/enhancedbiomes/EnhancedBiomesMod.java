@@ -62,7 +62,7 @@ import static net.minecraftforge.common.BiomeDictionary.Type.*;
 import static net.minecraftforge.common.BiomeDictionary.*;
 import net.minecraftforge.common.config.Configuration;
 
-@Mod(modid = EnhancedBiomesMod.MOD_ID, name = EnhancedBiomesMod.MOD_NAME, version = EnhancedBiomesMod.MOD_Version, useMetadata = true, dependencies = "required-after:Forge@[10.13.4.1558,)")
+@Mod(modid = EnhancedBiomesMod.MOD_ID, name = EnhancedBiomesMod.MOD_NAME, version = EnhancedBiomesMod.MOD_Version, useMetadata = true, dependencies = "required-after:Forge@[10.13.4.1566,)")
 public class EnhancedBiomesMod
 {
 	public static final String MOD_NAME = "Enhanced Biomes";

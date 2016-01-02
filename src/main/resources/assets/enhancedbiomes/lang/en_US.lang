@@ -1,3 +1,4 @@
+# Logs
 tile.logOakEB.greatOak.name=Great Oak Wood
 tile.logOakEB.savannah.name=Thorntree Wood
 tile.logOakEB.poplar.name=Poplar Wood
@@ -18,7 +19,7 @@ tile.logJungleEB.dead.name=Dead Wood
 tile.logJungleEB.cherry.name=Cherry Wood
 tile.logJungleEB.kapok.name=Kapok Wood
 
-
+# Leaves
 tile.leavesOakEB_0.name=Great Oak Leaves
 tile.leavesOakEB_1.name=Thorntree Leaves
 tile.leavesOakEB_2.name=Poplar Leaves
@@ -39,7 +40,7 @@ tile.leavesJungleEB_1.name=Cherry Leaves
 tile.leavesJungleEB_2.name=Cherry Leaves
 tile.leavesJungleEB_3.name=Kapok Leaves
 
-
+# Planks
 tile.planksEB_0.name=Great Oak Wood Planks
 tile.planksEB_1.name=Thorntree Wood Planks
 tile.planksEB_2.name=Poplar Wood Planks
@@ -60,7 +61,7 @@ tile.planksEB_13.name=Dead Wood Planks
 tile.planksEB_14.name=Cherry Wood Planks
 tile.planksEB_15.name=Kapok Wood Planks
 
-
+# Stairs
 tile.stairsWoodEB0.name=Great Oak Wood Stairs
 tile.stairsWoodEB1.name=Thorntree Wood Stairs
 tile.stairsWoodEB2.name=Poplar Wood Stairs
@@ -81,7 +82,7 @@ tile.stairsWoodEB13.name=Dead Wood Stairs
 tile.stairsWoodEB14.name=Cherry Wood Stairs
 tile.stairsWoodEB15.name=Kapok Wood Stairs
 
-
+# Slabs
 tile.slab1EB_0.name=Great Oak Wood Slab
 tile.slab1EB_1.name=Thorntree Wood Slab
 tile.slab1EB_2.name=Poplar Wood Slab
@@ -102,7 +103,7 @@ tile.slab2EB_5.name=Dead Wood Slab
 tile.slab2EB_6.name=Cherry Wood Slab
 tile.slab2EB_7.name=Kapok Wood Slab
 
-
+# Saplings
 tile.saplingEB_0.name=Great Oak Sapling
 tile.saplingEB_1.name=Thorntree Sapling
 tile.saplingEB_2.name=Poplar Sapling
@@ -123,7 +124,7 @@ tile.saplingEB_13.name=Dead Sapling
 tile.saplingEB_14.name=Cherry Sapling
 tile.saplingEB_15.name=Kapok Sapling
 
-
+# Stone Types
 tile.stoneEB_0.name=Basalt
 tile.stoneEB_1.name=Shale
 tile.stoneEB_2.name=Hardened Sandstone
@@ -138,7 +139,7 @@ tile.stoneEB_10.name=Chert
 tile.stoneEB_11.name=Gabbro
 tile.stoneEB_12.name=Dacite
 
-
+# Bricks
 tile.stoneBrickEB_0.name=Basalt Bricks
 tile.stoneBrickEB_1.name=Shale Bricks
 tile.stoneBrickEB_2.name=Hardened Sandstone Bricks
@@ -153,7 +154,7 @@ tile.stoneBrickEB_10.name=Chert Bricks
 tile.stoneBrickEB_11.name=Gabbro Bricks
 tile.stoneBrickEB_12.name=Dacite Bricks
 
-
+# Cobblestone
 tile.stoneCobbleEB_0.name=Cobbled Basalt
 tile.stoneCobbleEB_1.name=Cobbled Shale
 tile.stoneCobbleEB_2.name=Cobbled Sandstone
@@ -168,7 +169,7 @@ tile.stoneCobbleEB_10.name=Cobbled Chert
 tile.stoneCobbleEB_11.name=Cobbled Gabbro
 tile.stoneCobbleEB_12.name=Cobbled Dacite
 
-
+# Ores
 tile.oreGoldEB_0.name=Gold Ore
 tile.oreGoldEB_1.name=Gold Ore
 tile.oreGoldEB_2.name=Gold Ore
@@ -182,7 +183,6 @@ tile.oreGoldEB_9.name=Gold Ore
 tile.oreGoldEB_10.name=Gold Ore
 tile.oreGoldEB_11.name=Gold Ore
 tile.oreGoldEB_12.name=Gold Ore
-
 
 tile.oreIronEB_0.name=Iron Ore
 tile.oreIronEB_1.name=Iron Ore
@@ -198,7 +198,6 @@ tile.oreIronEB_10.name=Iron Ore
 tile.oreIronEB_11.name=Iron Ore
 tile.oreIronEB_12.name=Iron Ore
 
-
 tile.oreCoalEB_0.name=Coal Ore
 tile.oreCoalEB_1.name=Coal Ore
 tile.oreCoalEB_2.name=Coal Ore
@@ -212,7 +211,6 @@ tile.oreCoalEB_9.name=Coal Ore
 tile.oreCoalEB_10.name=Coal Ore
 tile.oreCoalEB_11.name=Coal Ore
 tile.oreCoalEB_12.name=Coal Ore
-
 
 tile.oreLapisEB_0.name=Lapis Lazuli Ore
 tile.oreLapisEB_1.name=Lapis Lazuli Ore
@@ -228,7 +226,6 @@ tile.oreLapisEB_10.name=Lapis Lazuli Ore
 tile.oreLapisEB_11.name=Lapis Lazuli Ore
 tile.oreLapisEB_12.name=Lapis Lazuli Ore
 
-
 tile.oreRedstoneEB_0.name=Redstone Ore
 tile.oreRedstoneEB_1.name=Redstone Ore
 tile.oreRedstoneEB_2.name=Redstone Ore
@@ -242,7 +239,6 @@ tile.oreRedstoneEB_9.name=Redstone Ore
 tile.oreRedstoneEB_10.name=Redstone Ore
 tile.oreRedstoneEB_11.name=Redstone Ore
 tile.oreRedstoneEB_12.name=Redstone Ore
-
 
 tile.oreDiamondEB_0.name=Diamond Ore
 tile.oreDiamondEB_1.name=Diamond Ore
@@ -258,7 +254,6 @@ tile.oreDiamondEB_10.name=Diamond Ore
 tile.oreDiamondEB_11.name=Diamond Ore
 tile.oreDiamondEB_12.name=Diamond Ore
 
-
 tile.oreEmeraldEB_0.name=Emerald Ore
 tile.oreEmeraldEB_1.name=Emerald Ore
 tile.oreEmeraldEB_2.name=Emerald Ore
@@ -273,7 +268,7 @@ tile.oreEmeraldEB_10.name=Emerald Ore
 tile.oreEmeraldEB_11.name=Emerald Ore
 tile.oreEmeraldEB_12.name=Emerald Ore
 
-
+# Stone Slabs
 tile.slabSEB_0.name=Basalt Slab
 tile.slabSEB_1.name=Shale Slab
 tile.slabSEB_2.name=Hardened Sandstone Slab
@@ -288,7 +283,7 @@ tile.slabSEB2_4.name=Chert Slab
 tile.slabSEB2_5.name=Gabbro Slab
 tile.slabSEB2_6.name=Dacite Slab
 
-
+# Brick Slabs
 tile.slabSEBB_0.name=Basalt Bricks Slab
 tile.slabSEBB_1.name=Shale Bricks Slab
 tile.slabSEBB_2.name=Hardened Sandstone Bricks Slab
@@ -303,7 +298,7 @@ tile.slabSEBB2_4.name=Chert Bricks Slab
 tile.slabSEBB2_5.name=Gabbro Bricks Slab
 tile.slabSEBB2_6.name=Dacite Bricks Slab
 
-
+# Stone Slabs
 tile.slabSCEB_0.name=Cobbled Basalt Slab
 tile.slabSCEB_1.name=Cobbled Shale Slab
 tile.slabSCEB_2.name=Cobbled Sandstone Slab
@@ -318,7 +313,7 @@ tile.slabSCEB2_4.name=Cobbled Chert Slab
 tile.slabSCEB2_5.name=Cobbled Gabbro Slab
 tile.slabSCEB2_6.name=Cobbled Dacite Slab
 
-
+# Stone Stairs
 tile.stairsSEBB0.name=Basalt Brick Stairs
 tile.stairsSEBB1.name=Shale Brick Stairs
 tile.stairsSEBB2.name=Hardened Sandstone Brick Stairs
@@ -333,7 +328,7 @@ tile.stairsSEBB10.name=Chert Brick Stairs
 tile.stairsSEBB11.name=Gabbro Brick Stairs
 tile.stairsSEBB12.name=Dacite Brick Stairs
 
-
+# Cobblestone Stairs
 tile.stairsSCEB0.name=Cobbled Basalt Stairs
 tile.stairsSCEB1.name=Cobbled Shale Stairs
 tile.stairsSCEB2.name=Cobbled Sandstone Stairs
@@ -348,7 +343,7 @@ tile.stairsSCEB10.name=Cobbled Chert Stairs
 tile.stairsSCEB11.name=Cobbled Gabbro Stairs
 tile.stairsSCEB12.name=Cobbled Dacite Stairs
 
-
+# Dirt Types
 tile.dirtEB_0.name=Alfisol
 tile.dirtEB_1.name=Andisol
 tile.dirtEB_3.name=Gelisol
@@ -364,7 +359,7 @@ tile.dirtEB_13.name=Coarse Inceptisol
 tile.dirtEB_14.name=Coarse Mollisol
 tile.dirtEB_15.name=Coarse Oxisol
 
-
+# Grass Types
 tile.grassEB_0.name=Alfisol Grass Block
 tile.grassEB_1.name=Andisol Grass Block
 tile.grassEB_3.name=Gelisol Grass Block
@@ -373,19 +368,29 @@ tile.grassEB_5.name=Inceptisol Grass Block
 tile.grassEB_6.name=Mollisol Grass Block
 tile.grassEB_7.name=Oxisol Grass Block
 
+# Farmland Types
+tile.farmlandEB0.name=Alfisol Farmland
+tile.farmlandEB1.name=Andisol Farmland
+tile.farmlandEB3.name=Gelisol Farmland
+tile.farmlandEB4.name=Histosol Farmland
+tile.farmlandEB5.name=Inceptisol Farmland
+tile.farmlandEB6.name=Mollisol Farmland
+tile.farmlandEB7.name=Oxisol Farmland
 
+# Other
 tile.shoji.name=Shoji
 tile.shojiLamp.name=Andon
 
-
 tile.saguaroSapling.name=Saguaro
+tile.saguaro_0.name=Saguaro
 item.saguaroFruit.name=Saguaro Fruit
-
 
 tile.util.name=DO NOT USE THIS BLOCK. TELL SMEZ1234 THAT HE STUFFED UP.
 
-
+# Creative Tabs
 itemGroup.enhancedBiomesOrganic=Enhanced Biomes - Organic
 itemGroup.enhancedBiomesMineral=Enhanced Biomes - Mineral
+
+# Generator Types
 generator.typeEB=Enhanced Biomes
 generator.typeOneBiome=Single Biome
