@@ -8,15 +8,23 @@ Instructions how to build code from v2.6-unofficial branch:
 Without Gradle installed:
 
 1) Select *v2.6-unofficial* branch and press "Download ZIP" button.
+
 2) Unpack .zip archive.
+
 3) Open EnhancedBiomes-v2.6-unofficial folder.
+
 4) Press Shift+Right mouse button and select Open command window (or something similar).
+
 5) Run "gradlew setupDecompWorkspace" and then "gradlew build" commands.
 
 With Gradle installed:
 
 1) Select *v2.6-unofficial* branch and press "Download ZIP" button.
+
 2) Unpack .zip archive.
+
 3) Open EnhancedBiomes-v2.6-unofficial folder.
+
 4) Press Shift+Right mouse button and select Open command window (or something similar).
+
 5) Run "gradle setupDecompWorkspace" and then "gradle build" commands.

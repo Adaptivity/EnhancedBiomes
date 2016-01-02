@@ -29,16 +29,25 @@ tile.leavesSpruceEB_0.name=Fir Leaves
 tile.leavesSpruceEB_1.name=Cypress Leaves
 tile.leavesSpruceEB_2.name=Pine Leaves
 tile.leavesSpruceEB_3.name=Silver Pine Leaves
+tile.leavesSpruceEB_8.name=Fir Leaves
+tile.leavesSpruceEB_9.name=Cypress Leaves
+tile.leavesSpruceEB_10.name=Pine Leaves
+tile.leavesSpruceEB_11.name=Silver Pine Leaves
 
 tile.leavesBirchEB_0.name=Alder Leaves
 tile.leavesBirchEB_1.name=Eucalyptus Leaves
 tile.leavesBirchEB_2.name=Aspen Leaves
 tile.leavesBirchEB_3.name=BirchEB Leaves
+tile.leavesBirchEB_8.name=Alder Leaves
+tile.leavesBirchEB_9.name=Eucalyptus Leaves
+tile.leavesBirchEB_10.name=Aspen Leaves
 
 tile.leavesJungleEB_0.name=Baobab Leaves
 tile.leavesJungleEB_1.name=Cherry Leaves
 tile.leavesJungleEB_2.name=Cherry Leaves
 tile.leavesJungleEB_3.name=Kapok Leaves
+tile.leavesJungleEB_9.name=Cherry Leaves
+tile.leavesJungleEB_10.name=Cherry Leaves
 
 # Planks
 tile.planksEB_0.name=Great Oak Wood Planks
@@ -240,6 +249,23 @@ tile.oreRedstoneEB_10.name=Redstone Ore
 tile.oreRedstoneEB_11.name=Redstone Ore
 tile.oreRedstoneEB_12.name=Redstone Ore
 
+tile.oreRedstoneLitEB_0.name=Redstone Ore
+tile.oreRedstoneLitEB_1.name=Redstone Ore
+tile.oreRedstoneLitEB_2.name=Redstone Ore
+tile.oreRedstoneLitEB_3.name=Redstone Ore
+tile.oreRedstoneLitEB_4.name=Redstone Ore
+tile.oreRedstoneLitEB_5.name=Redstone Ore
+tile.oreRedstoneLitEB_6.name=Redstone Ore
+tile.oreRedstoneLitEB_7.name=Redstone Ore
+tile.oreRedstoneLitEB_8.name=Redstone Ore
+tile.oreRedstoneLitEB_9.name=Redstone Ore
+tile.oreRedstoneLitEB_10.name=Redstone Ore
+tile.oreRedstoneLitEB_11.name=Redstone Ore
+tile.oreRedstoneLitEB_12.name=Redstone Ore
+tile.oreRedstoneLitEB_13.name=Redstone Ore
+tile.oreRedstoneLitEB_14.name=Redstone Ore
+tile.oreRedstoneLitEB_15.name=Redstone Ore
+
 tile.oreDiamondEB_0.name=Diamond Ore
 tile.oreDiamondEB_1.name=Diamond Ore
 tile.oreDiamondEB_2.name=Diamond Ore
@@ -313,7 +339,70 @@ tile.slabSCEB2_4.name=Cobbled Chert Slab
 tile.slabSCEB2_5.name=Cobbled Gabbro Slab
 tile.slabSCEB2_6.name=Cobbled Dacite Slab
 
-# Stone Stairs
+# Double Slabs
+tile.doubleSlab1EB_0.name=Great Oak Wood Slab
+tile.doubleSlab1EB_1.name=Thorntree Wood Slab
+tile.doubleSlab1EB_2.name=Poplar Wood Slab
+tile.doubleSlab1EB_3.name=Mangrove Wood Slab
+
+tile.doubleSlab1EB_4.name=Fir Wood Slab
+tile.doubleSlab1EB_5.name=Cypress Wood Slab
+tile.doubleSlab1EB_6.name=Pine Wood Slab
+tile.doubleSlab1EB_7.name=Silver Pine Wood Slab
+
+tile.doubleSlab2EB_0.name=Alder Wood Slab
+tile.doubleSlab2EB_1.name=Eucalyptus Wood Slab
+tile.doubleSlab2EB_2.name=Aspen Wood Slab
+tile.doubleSlab2EB_3.name=BirchEB Wood Slab
+
+tile.doubleSlab2EB_4.name=Baobab Wood Slab
+tile.doubleSlab2EB_5.name=Dead Wood Slab
+tile.doubleSlab2EB_6.name=Cherry Wood Slab
+tile.doubleSlab2EB_7.name=Kapok Wood Slab
+
+tile.doubleSlabSEB_0.name=Basalt Slab
+tile.doubleSlabSEB_1.name=Shale Slab
+tile.doubleSlabSEB_2.name=Hardened Sandstone Slab
+tile.doubleSlabSEB_3.name=Limestone Slab
+tile.doubleSlabSEB_4.name=Slate Slab
+tile.doubleSlabSEB_5.name=Rhyolite Slab
+tile.doubleSlabSEB2_0.name=Chalk Slab
+tile.doubleSlabSEB2_1.name=Marble Slab
+tile.doubleSlabSEB2_2.name=Dolomite Slab
+tile.doubleSlabSEB2_3.name=Schist Slab
+tile.doubleSlabSEB2_4.name=Chert Slab
+tile.doubleSlabSEB2_5.name=Gabbro Slab
+tile.doubleSlabSEB2_6.name=Dacite Slab
+
+tile.doubleSlabSEBB_0.name=Basalt Bricks Slab
+tile.doubleSlabSEBB_1.name=Shale Bricks Slab
+tile.doubleSlabSEBB_2.name=Hardened Sandstone Bricks Slab
+tile.doubleSlabSEBB_3.name=Limestone Bricks Slab
+tile.doubleSlabSEBB_4.name=Slate Bricks Slab
+tile.doubleSlabSEBB_5.name=Rhyolite Bricks Slab
+tile.doubleSlabSEBB2_0.name=Chalk Bricks Slab
+tile.doubleSlabSEBB2_1.name=Marble Bricks Slab
+tile.doubleSlabSEBB2_2.name=Dolomite Bricks Slab
+tile.doubleSlabSEBB2_3.name=Schist Bricks Slab
+tile.doubleSlabSEBB2_4.name=Chert Bricks Slab
+tile.doubleSlabSEBB2_5.name=Gabbro Bricks Slab
+tile.doubleSlabSEBB2_6.name=Dacite Bricks Slab
+
+tile.doubleSlabSCEB_0.name=Cobbled Basalt Slab
+tile.doubleSlabSCEB_1.name=Cobbled Shale Slab
+tile.doubleSlabSCEB_2.name=Cobbled Sandstone Slab
+tile.doubleSlabSCEB_3.name=Cobbled Limestone Slab
+tile.doubleSlabSCEB_4.name=Cobbled Slate Slab
+tile.doubleSlabSCEB_5.name=Cobbled Rhyolite Slab
+tile.doubleSlabSCEB2_0.name=Cobbled Chalk Slab
+tile.doubleSlabSCEB2_1.name=Cobbled Marble Slab
+tile.doubleSlabSCEB2_2.name=Cobbled Dolomite Slab
+tile.doubleSlabSCEB2_3.name=Cobbled Schist Slab
+tile.doubleSlabSCEB2_4.name=Cobbled Chert Slab
+tile.doubleSlabSCEB2_5.name=Cobbled Gabbro Slab
+tile.doubleSlabSCEB2_6.name=Cobbled Dacite Slab
+
+# Brick Stairs
 tile.stairsSEBB0.name=Basalt Brick Stairs
 tile.stairsSEBB1.name=Shale Brick Stairs
 tile.stairsSEBB2.name=Hardened Sandstone Brick Stairs
