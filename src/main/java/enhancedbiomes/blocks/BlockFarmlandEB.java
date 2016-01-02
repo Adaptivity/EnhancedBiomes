@@ -63,8 +63,8 @@ public class BlockFarmlandEB extends BlockFarmland
 	 * Gets the block's texture. Args: side, meta
 	 */
 	@SideOnly(Side.CLIENT)
-	public IIcon getIcon(int p_149691_1_, int p_149691_2_) {
-		return p_149691_1_ == 1 ? (p_149691_2_ > 0 ? this.field_149824_a : this.field_149823_b) : EnhancedBiomesBlocks.dirtEB.icons[type];
+	public IIcon getIcon(int side, int meta) {
+		return side == 1 ? (meta > 0 ? this.field_149824_a : this.field_149823_b) : EnhancedBiomesBlocks.dirtEB.icons[type];
 	}
 
 	/**
@@ -154,11 +154,9 @@ public class BlockFarmlandEB extends BlockFarmland
 	}
 
 	@SideOnly(Side.CLIENT)
-	public void registerBlockIcons(IIconRegister p_149651_1_) {
-		if(BlockSoilEB.soils[type] != "entisol") {
-			this.field_149824_a = p_149651_1_.registerIcon("enhancedbiomes:farmland_" + BlockSoilEB.soils[type] + "_wet");
-			this.field_149823_b = p_149651_1_.registerIcon("enhancedbiomes:farmland_" + BlockSoilEB.soils[type]);
-		}
+	public void registerBlockIcons(IIconRegister ir) {
+		this.field_149824_a = ir.registerIcon("enhancedbiomes:farmland_" + BlockSoilEB.soils[type] + "_wet");
+		this.field_149823_b = ir.registerIcon("enhancedbiomes:farmland_" + BlockSoilEB.soils[type]);
 	}
 
 	public boolean canSustainPlant(IBlockAccess world, int x, int y, int z, ForgeDirection direction, IPlantable plantable) {

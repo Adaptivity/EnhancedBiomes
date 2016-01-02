@@ -107,7 +107,7 @@ public class EnhancedBiomesBlocks {
 
 	public static BlockSoilEB dirtEB;
 	public static BlockGrassEB grassEB;
-	public static BlockFarmlandEB[] farmlandEB = new BlockFarmlandEB[BlockSoilEB.soils.length];
+	public static BlockFarmlandEB[] farmlandEB = new BlockFarmlandEB[BlockSoilEB.soils.length]; // Without "entisol"
 
 	public static BlockSaguaro saguaro;
 	public static BlockSaguaroSapling saguaroSapling;
@@ -206,7 +206,11 @@ public class EnhancedBiomesBlocks {
 
 		dirtEB = (BlockSoilEB) new BlockSoilEB().setHardness(0.5F).setStepSound(soundTypeGravel).setBlockName("dirtEB").setCreativeTab(tabEnhancedBiomesOrganic);
 		grassEB = (BlockGrassEB) new BlockGrassEB().setHardness(0.6F).setStepSound(soundTypeGrass).setBlockName("grassEB").setCreativeTab(tabEnhancedBiomesOrganic);
-		for(int x = 0; x < BlockSoilEB.soils.length; x++) farmlandEB[x] = (BlockFarmlandEB) new BlockFarmlandEB(x).setHardness(0.6F).setStepSound(soundTypeGravel).setBlockName("farmlandEB" + x).setCreativeTab(null);
+		for(int x = 0; x < farmlandEB.length; x++) {
+			if(BlockSoilEB.soils[x] != "entisol") {
+				farmlandEB[x] = (BlockFarmlandEB) new BlockFarmlandEB(x).setHardness(0.6F).setStepSound(soundTypeGravel).setBlockName("farmlandEB" + x).setCreativeTab(null);
+			}
+		}
 
 		saguaro = (BlockSaguaro) new BlockSaguaro().setHardness(0.4F).setStepSound(soundTypeCloth).setBlockName("saguaro").setCreativeTab(null);
 		saguaroSapling = (BlockSaguaroSapling) new BlockSaguaroSapling().setHardness(0.0F).setStepSound(soundTypeGrass).setBlockName("saguaroSapling").setCreativeTab(tabEnhancedBiomesOrganic);
@@ -312,7 +316,8 @@ public class EnhancedBiomesBlocks {
 		
 		inputBlockList(farmlandEB);
 		for(int a = 0; a < farmlandEB.length; a++) {
-			farmlandEB[a].setHarvestLevel("shovel", 0);
+			if(farmlandEB[a] != null)
+				farmlandEB[a].setHarvestLevel("shovel", 0);
 		}
 		
 		inputMetaBlock(saguaro);
@@ -379,7 +384,7 @@ public class EnhancedBiomesBlocks {
 		GameRegistry.addRecipe(new ItemStack(shoji, 4, 0), new Object[] {"#X#", "XXX", "#X#", '#', paper, 'X', stick});
 		GameRegistry.addShapelessRecipe(new ItemStack(shojiLamp, 1, 0), new Object[] {new ItemStack(paper, 1, 0), new ItemStack(torch, 1, 0)});
 		
-		GameRegistry.registerFuelHandler(new FuelHandler());
+		MinecraftForge.EVENT_BUS.register(new FuelHandler());
 	}
 	
 	public static void inputBlock(Block block) {
