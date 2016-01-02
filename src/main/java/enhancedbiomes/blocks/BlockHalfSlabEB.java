@@ -29,7 +29,6 @@ public class BlockHalfSlabEB extends BlockSlab
 		this.setCreativeTab(CreativeTabs.tabBlock);
 		this.useNeighborBrightness = true;
 		doubleSlab = par2;
-
 		woodType0 = new String[] {BlockLogOak.woodType[0], BlockLogOak.woodType[1], BlockLogOak.woodType[2], BlockLogOak.woodType[3], BlockLogSpruce.woodType[0], BlockLogSpruce.woodType[1], BlockLogSpruce.woodType[2], BlockLogSpruce.woodType[3]};
 
 		woodType1 = new String[] {BlockLogBirch.woodType[0], BlockLogBirch.woodType[1], BlockLogBirch.woodType[2], BlockLogBirch.woodType[3], BlockLogJungle.woodType[0], BlockLogJungle.woodType[1], BlockLogJungle.woodType[2], BlockLogJungle.woodType[3]};

@@ -249,7 +249,7 @@ public class EnhancedBiomesBlocks {
 			}
 		}
 		
-		inputMetaBlock(saplingEB);
+		inputMetaBlock(saplingEB);									if (EnhancedBiomesMod.enableBurnableSaplings) { Blocks.fire.setFireInfo(saplingEB, 60, 100); }
 		OreDictionary.registerOre("treeSapling", new ItemStack(saplingEB, 1, OreDictionary.WILDCARD_VALUE));
 
 		inputMetaBlock(stoneEB);

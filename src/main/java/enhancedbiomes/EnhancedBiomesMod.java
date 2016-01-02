@@ -129,6 +129,8 @@ public class EnhancedBiomesMod
 	public static boolean useNewGrass;
 	public static boolean useVillageMods;
 	public static boolean useListedRareBiomes;
+	
+	public static boolean enableBurnableSaplings;
 
 	public static boolean obsidianVolcano;
 
@@ -166,6 +168,8 @@ public class EnhancedBiomesMod
 		useListedRareBiomes = config.get(config.CATEGORY_GENERAL, "Use EB's rare biome code (Rare biomes have to be registered with EB to work)", true, "If true, rare biomes can have any ID, if false, their ID must be 128 more than their standard biome's ID").getBoolean(true);
 
 		seasonLength = config.get(config.CATEGORY_GENERAL, "Days in each season", 4, "Default is 4").getInt();
+
+		enableBurnableSaplings = config.get(config.CATEGORY_GENERAL, "Allow EB saplings to burn (1.8 feature)", true, "If false, EB saplings will not burn").getBoolean(true);
 
 		obsidianVolcano = config.get(config.CATEGORY_GENERAL, "Create volcanoes out of obsidian", true, "If false, volcanoes will instead be made from basalt").getBoolean(true);
 		config.save();
