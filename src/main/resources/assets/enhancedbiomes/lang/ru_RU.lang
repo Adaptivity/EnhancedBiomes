@@ -24,6 +24,9 @@ tile.leavesOakEB_0.name=Листва великого дуба
 tile.leavesOakEB_1.name=Листва караганы
 tile.leavesOakEB_2.name=Листва тополя
 tile.leavesOakEB_3.name=Листва мангрового дерева
+tile.leavesOakEB_8.name=Листва великого дуба
+tile.leavesOakEB_10.name=Листва тополя
+tile.leavesOakEB_11.name=Листва мангрового дерева
 
 tile.leavesSpruceEB_0.name=Листва пихты
 tile.leavesSpruceEB_1.name=Листва кипариса

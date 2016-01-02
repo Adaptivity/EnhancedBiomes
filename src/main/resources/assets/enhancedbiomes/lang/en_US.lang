@@ -24,6 +24,9 @@ tile.leavesOakEB_0.name=Great Oak Leaves
 tile.leavesOakEB_1.name=Thorntree Leaves
 tile.leavesOakEB_2.name=Poplar Leaves
 tile.leavesOakEB_3.name=Mangrove Leaves
+tile.leavesOakEB_8.name=Great Oak Leaves
+tile.leavesOakEB_10.name=Poplar Leaves
+tile.leavesOakEB_11.name=Mangrove Leaves
 
 tile.leavesSpruceEB_0.name=Fir Leaves
 tile.leavesSpruceEB_1.name=Cypress Leaves
