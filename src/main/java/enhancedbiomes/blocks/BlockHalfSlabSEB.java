@@ -77,11 +77,9 @@ public class BlockHalfSlabSEB extends BlockSlab
 	/**
 	 * returns a list of blocks with the same ID, but different meta (eg: wood returns 4 blocks)
 	 */
-	public void getSubBlocks(Item par1, CreativeTabs par2CreativeTabs, List par3List) {
-		if(par1 == Item.getItemFromBlock(EnhancedBiomesBlocks.slabS) || par1 == Item.getItemFromBlock(EnhancedBiomesBlocks.slabSB) || par1 == Item.getItemFromBlock(EnhancedBiomesBlocks.slabSC)) {
-			for(int j = 0; j < this.stoneType.length; ++j) {
-				par3List.add(new ItemStack(par1, 1, j));
-			}
+	public void getSubBlocks(Item item, CreativeTabs tabs, List list) {
+		for(int j = 0; j < this.stoneType.length; ++j) {
+			list.add(new ItemStack(item, 1, j));
 		}
 	}
 
@@ -106,17 +104,6 @@ public class BlockHalfSlabSEB extends BlockSlab
 	public Item getItem(World par1World, int par2, int par3, int par4) {
 		return Item.getItemFromBlock((this == EnhancedBiomesBlocks.doubleSlabS ? EnhancedBiomesBlocks.slabS : (this == EnhancedBiomesBlocks.doubleSlabSB ? EnhancedBiomesBlocks.slabSB : (this == EnhancedBiomesBlocks.doubleSlabSC ? EnhancedBiomesBlocks.slabSC : this))));
 	}
-
-	/*@SideOnly(Side.CLIENT)
-
-	/**
-	 * Takes a block ID, returns true if it's the same as the ID for a stone or wooden single slab.
-	 */
-	/*@Override
-	private static boolean func_150003_a(Block par0)
-	{
-	    return par0 == Blocks.stone_slab || par0 == Blocks.wooden_slab || par0 == EnhancedBiomesBlocks.slab1 || par0 == EnhancedBiomesBlocks.slab2;
-	}*/
 
 	@Override
 	public String func_150002_b(int var1) {
