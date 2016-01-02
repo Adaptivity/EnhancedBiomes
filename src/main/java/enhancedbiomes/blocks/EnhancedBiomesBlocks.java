@@ -169,52 +169,52 @@ public class EnhancedBiomesBlocks {
 		leavesSpruce = (BlockLeavesSpruce)(new BlockLeavesSpruce()).setHardness(0.2F).setLightOpacity(1).setStepSound(soundTypeGrass).setBlockName("leavesSpruceEB").setCreativeTab(tabEnhancedBiomesOrganic);
 		leavesBirch = (BlockLeavesBirch)(new BlockLeavesBirch()).setHardness(0.2F).setLightOpacity(1).setStepSound(soundTypeGrass).setBlockName("leavesBirchEB").setCreativeTab(tabEnhancedBiomesOrganic);
 		leavesJungle = (BlockLeavesJungle)(new BlockLeavesJungle()).setHardness(0.2F).setLightOpacity(1).setStepSound(soundTypeGrass).setBlockName("leavesJungleEB").setCreativeTab(tabEnhancedBiomesOrganic);
-		
+
 		saplingEB = (BlockSaplingEnhancedBiomes) new BlockSaplingEnhancedBiomes().setHardness(0.0F).setStepSound(soundTypeGrass).setBlockName("saplingEB").setBlockTextureName("saplingEB").setCreativeTab(tabEnhancedBiomesOrganic);
-		
+
 		stoneEB = (new BlockStoneEB()).setHardness(1.5F).setResistance(10.0F).setStepSound(soundTypeStone).setBlockName("stoneEB").setBlockTextureName("stone").setCreativeTab(tabEnhancedBiomesMineral);
 		stoneCobbleEB = (new BlockStoneBrickEB()).setHardness(1.5F).setResistance(10.0F).setStepSound(soundTypeStone).setBlockName("stoneCobbleEB").setBlockTextureName("stoneCobble").setCreativeTab(tabEnhancedBiomesMineral);
 		stoneBrickEB = (new BlockStoneBrickEB()).setHardness(1.5F).setResistance(10.0F).setStepSound(soundTypeStone).setBlockName("stoneBrickEB").setBlockTextureName("stoneBrick").setCreativeTab(tabEnhancedBiomesMineral);
 
-	    oreGoldEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreGoldEB").setBlockTextureName("gold_ore").setCreativeTab(tabEnhancedBiomesMineral);
-	    oreIronEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreIronEB").setBlockTextureName("iron_ore").setCreativeTab(tabEnhancedBiomesMineral);
-	    oreCoalEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreCoalEB").setBlockTextureName("coal_ore").setCreativeTab(tabEnhancedBiomesMineral);
-	    oreLapisEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreLapisEB").setBlockTextureName("lapis_ore").setCreativeTab(tabEnhancedBiomesMineral);
-	    oreRedstoneEB = (new BlockRedstoneOreEB(false)).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreRedstoneEB").setBlockTextureName("redstone_ore").setCreativeTab(tabEnhancedBiomesMineral);
-	    oreRedstoneLitEB = (new BlockRedstoneOreEB(true)).setLightLevel(0.625F).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreRedstoneLitEB").setBlockTextureName("redstone_ore").setCreativeTab(tabEnhancedBiomesMineral);
-	    oreDiamondEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreDiamondEB").setBlockTextureName("diamond_ore").setCreativeTab(tabEnhancedBiomesMineral);
-	    oreEmeraldEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreEmeraldEB").setBlockTextureName("emerald_ore").setCreativeTab(tabEnhancedBiomesMineral);
-	    
-	    slabS = (BlockSlab) new BlockHalfSlabSEB(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSEB").setCreativeTab(tabEnhancedBiomesMineral);
-	    slabSB = (BlockSlab) new BlockHalfSlabSEB(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSEBB").setCreativeTab(tabEnhancedBiomesMineral);
-	    slabSC = (BlockSlab) new BlockHalfSlabSEB(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSCEB").setCreativeTab(tabEnhancedBiomesMineral);
-		
-	    doubleSlabS = (BlockSlab) new BlockHalfSlabSEB(true).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("doubleSlabSEB").setCreativeTab(tabEnhancedBiomesMineral);
-	    doubleSlabSB = (BlockSlab) new BlockHalfSlabSEB(true).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("doubleSlabSEBB").setCreativeTab(tabEnhancedBiomesMineral);
-	    doubleSlabSC = (BlockSlab) new BlockHalfSlabSEB(true).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("doubleSlabSCEB").setCreativeTab(tabEnhancedBiomesMineral);
-		
-	    slabS2 = (BlockSlab) new BlockHalfSlabSEB2(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSEB2").setCreativeTab(tabEnhancedBiomesMineral);
-	    slabSB2 = (BlockSlab) new BlockHalfSlabSEB2(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSEBB2").setCreativeTab(tabEnhancedBiomesMineral);
-	    slabSC2 = (BlockSlab) new BlockHalfSlabSEB2(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSCEB2").setCreativeTab(tabEnhancedBiomesMineral);
-		
+		oreGoldEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreGoldEB").setBlockTextureName("gold_ore").setCreativeTab(tabEnhancedBiomesMineral);
+		oreIronEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreIronEB").setBlockTextureName("iron_ore").setCreativeTab(tabEnhancedBiomesMineral);
+		oreCoalEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreCoalEB").setBlockTextureName("coal_ore").setCreativeTab(tabEnhancedBiomesMineral);
+		oreLapisEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreLapisEB").setBlockTextureName("lapis_ore").setCreativeTab(tabEnhancedBiomesMineral);
+		oreRedstoneEB = (new BlockRedstoneOreEB(false)).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreRedstoneEB").setBlockTextureName("redstone_ore").setCreativeTab(tabEnhancedBiomesMineral);
+		oreRedstoneLitEB = (new BlockRedstoneOreEB(true)).setLightLevel(0.625F).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreRedstoneLitEB").setBlockTextureName("redstone_ore").setCreativeTab(tabEnhancedBiomesMineral);
+		oreDiamondEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreDiamondEB").setBlockTextureName("diamond_ore").setCreativeTab(tabEnhancedBiomesMineral);
+		oreEmeraldEB = (new BlockOreEB()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setBlockName("oreEmeraldEB").setBlockTextureName("emerald_ore").setCreativeTab(tabEnhancedBiomesMineral);
+
+		slabS = (BlockSlab) new BlockHalfSlabSEB(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSEB").setCreativeTab(tabEnhancedBiomesMineral);
+		slabSB = (BlockSlab) new BlockHalfSlabSEB(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSEBB").setCreativeTab(tabEnhancedBiomesMineral);
+		slabSC = (BlockSlab) new BlockHalfSlabSEB(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSCEB").setCreativeTab(tabEnhancedBiomesMineral);
+
+		doubleSlabS = (BlockSlab) new BlockHalfSlabSEB(true).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("doubleSlabSEB").setCreativeTab(tabEnhancedBiomesMineral);
+		doubleSlabSB = (BlockSlab) new BlockHalfSlabSEB(true).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("doubleSlabSEBB").setCreativeTab(tabEnhancedBiomesMineral);
+		doubleSlabSC = (BlockSlab) new BlockHalfSlabSEB(true).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("doubleSlabSCEB").setCreativeTab(tabEnhancedBiomesMineral);
+
+		slabS2 = (BlockSlab) new BlockHalfSlabSEB2(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSEB2").setCreativeTab(tabEnhancedBiomesMineral);
+		slabSB2 = (BlockSlab) new BlockHalfSlabSEB2(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSEBB2").setCreativeTab(tabEnhancedBiomesMineral);
+		slabSC2 = (BlockSlab) new BlockHalfSlabSEB2(false).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("slabSCEB2").setCreativeTab(tabEnhancedBiomesMineral);
+
 	    doubleSlabS2 = (BlockSlab) new BlockHalfSlabSEB2(true).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("doubleSlabSEB2").setCreativeTab(tabEnhancedBiomesMineral);
 	    doubleSlabSB2 = (BlockSlab) new BlockHalfSlabSEB2(true).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("doubleSlabSEBB2").setCreativeTab(tabEnhancedBiomesMineral);
 	    doubleSlabSC2 = (BlockSlab) new BlockHalfSlabSEB2(true).setHardness(2.0F).setResistance(10.0F).setStepSound(soundTypePiston).setBlockName("doubleSlabSCEB2").setCreativeTab(tabEnhancedBiomesMineral);
-		
-	    for(int x = 0; x < stairsSEB.length / 2; x++) stairsSEB[x] = new BlockStairsEB(stoneCobbleEB, x, false).setBlockName("stairsSCEB" + x).setCreativeTab(tabEnhancedBiomesMineral);
+
+		for(int x = 0; x < stairsSEB.length / 2; x++) stairsSEB[x] = new BlockStairsEB(stoneCobbleEB, x, false).setBlockName("stairsSCEB" + x).setCreativeTab(tabEnhancedBiomesMineral);
 		for(int x = 0; x < stairsSEB.length / 2; x++) stairsSEB[x + (stairsSEB.length / 2)] = new BlockStairsEB(stoneBrickEB, x, false).setBlockName("stairsSEBB" + x).setCreativeTab(tabEnhancedBiomesMineral);
-		
+
 		dirtEB = (BlockSoilEB) new BlockSoilEB().setHardness(0.5F).setStepSound(soundTypeGravel).setBlockName("dirtEB").setCreativeTab(tabEnhancedBiomesOrganic);
-	    grassEB = (BlockGrassEB) new BlockGrassEB().setHardness(0.6F).setStepSound(soundTypeGrass).setBlockName("grassEB").setCreativeTab(tabEnhancedBiomesOrganic);
-	    for(int x = 0; x < BlockSoilEB.soils.length; x++) farmlandEB[x] = (BlockFarmlandEB) new BlockFarmlandEB(x).setHardness(0.6F).setStepSound(soundTypeGravel).setBlockName("farmlandEB" + x).setCreativeTab(null);
-	    
-	    saguaro = (BlockSaguaro) new BlockSaguaro().setHardness(0.4F).setStepSound(soundTypeCloth).setBlockName("saguaro").setCreativeTab(null);
-	    saguaroSapling = (BlockSaguaroSapling) new BlockSaguaroSapling().setHardness(0.0F).setStepSound(soundTypeGrass).setBlockName("saguaroSapling").setCreativeTab(tabEnhancedBiomesOrganic);
+		grassEB = (BlockGrassEB) new BlockGrassEB().setHardness(0.6F).setStepSound(soundTypeGrass).setBlockName("grassEB").setCreativeTab(tabEnhancedBiomesOrganic);
+		for(int x = 0; x < BlockSoilEB.soils.length; x++) farmlandEB[x] = (BlockFarmlandEB) new BlockFarmlandEB(x).setHardness(0.6F).setStepSound(soundTypeGravel).setBlockName("farmlandEB" + x).setCreativeTab(null);
+
+		saguaro = (BlockSaguaro) new BlockSaguaro().setHardness(0.4F).setStepSound(soundTypeCloth).setBlockName("saguaro").setCreativeTab(null);
+		saguaroSapling = (BlockSaguaroSapling) new BlockSaguaroSapling().setHardness(0.0F).setStepSound(soundTypeGrass).setBlockName("saguaroSapling").setCreativeTab(tabEnhancedBiomesOrganic);
 		GameRegistry.registerTileEntity(TileEntitySaguaro.class, "saguaroEB");
-	    
-	    shoji = (new BlockShoji("enhancedbiomes:shoji", "enhancedbiomes:shoji", Material.cloth, false)).setHardness(0.2F).setStepSound(soundTypeCloth).setBlockName("shoji").setCreativeTab(tabEnhancedBiomesOrganic);
-	    shojiLamp = (BlockShojiLamp) new BlockShojiLamp().setHardness(0.5F).setLightLevel(0.9375F).setStepSound(soundTypeCloth).setBlockName("shojiLamp").setCreativeTab(tabEnhancedBiomesOrganic);
-	    
+
+		shoji = (new BlockShoji("enhancedbiomes:shoji", "enhancedbiomes:shoji", Material.cloth, false)).setHardness(0.2F).setStepSound(soundTypeCloth).setBlockName("shoji").setCreativeTab(tabEnhancedBiomesOrganic);
+		shojiLamp = (BlockShojiLamp) new BlockShojiLamp().setHardness(0.5F).setLightLevel(0.9375F).setStepSound(soundTypeCloth).setBlockName("shojiLamp").setCreativeTab(tabEnhancedBiomesOrganic);
+
 		inputWoodBlock(logOak, 		ItemBlockLogOak.class);			Blocks.fire.setFireInfo(logOak, 5, 5);
 		inputWoodBlock(logSpruce, 	ItemBlockLogSpruce.class);		Blocks.fire.setFireInfo(logSpruce, 5, 5);
 		inputWoodBlock(logBirch, 	ItemBlockLogBirch.class);		Blocks.fire.setFireInfo(logBirch, 5, 5);
