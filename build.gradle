@@ -17,11 +17,11 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "2.6-unofficial"
+version = project.modversion
 archivesBaseName = "EnhancedBiomes-" + project.mcversion
 
 minecraft {
-    version = "1.7.10-10.13.4.1558-1.7.10"
+    version = project.mcversion + "-" + project.forgeversion + "-" + project.mcversion
     runDir = "eclipse"
     
     replace '@VERSION@', project.version

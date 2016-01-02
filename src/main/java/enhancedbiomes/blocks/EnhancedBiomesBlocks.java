@@ -215,9 +215,6 @@ public class EnhancedBiomesBlocks {
 	    shoji = (new BlockShoji("enhancedbiomes:shoji", "enhancedbiomes:shoji", Material.cloth, false)).setHardness(0.2F).setStepSound(soundTypeCloth).setBlockName("shoji").setCreativeTab(tabEnhancedBiomesOrganic);
 	    shojiLamp = (BlockShojiLamp) new BlockShojiLamp().setHardness(0.5F).setLightLevel(0.9375F).setStepSound(soundTypeCloth).setBlockName("shojiLamp").setCreativeTab(tabEnhancedBiomesOrganic);
 	    
-	    //FIXME Remove for release
-		//util = new BlockUtil().setBlockName("util"); inputBlock(util);
-		
 		inputWoodBlock(logOak, 		ItemBlockLogOak.class);			Blocks.fire.setFireInfo(logOak, 5, 5);
 		inputWoodBlock(logSpruce, 	ItemBlockLogSpruce.class);		Blocks.fire.setFireInfo(logSpruce, 5, 5);
 		inputWoodBlock(logBirch, 	ItemBlockLogBirch.class);		Blocks.fire.setFireInfo(logBirch, 5, 5);

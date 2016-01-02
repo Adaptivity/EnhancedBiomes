@@ -62,13 +62,17 @@ import static net.minecraftforge.common.BiomeDictionary.Type.*;
 import static net.minecraftforge.common.BiomeDictionary.*;
 import net.minecraftforge.common.config.Configuration;
 
-@Mod(modid = "enhancedbiomes", name = "Enhanced Biomes", version = "pre-3.0.0 for MC 1.7.10", useMetadata = true)
-//FIXME Update version for release
+@Mod(modid = EnhancedBiomesMod.MOD_ID, name = EnhancedBiomesMod.MOD_NAME, version = EnhancedBiomesMod.MOD_Version, useMetadata = true, dependencies = "required-after:Forge@[10.13.4.1558,)")
 public class EnhancedBiomesMod
 {
+	public static final String MOD_NAME = "Enhanced Biomes";
+	public static final String MOD_ID = "enhancedbiomes";
+	public static final String MOD_Version = "2.6-unofficial";
+
 	@SidedProxy(clientSide = "enhancedbiomes.proxy.ClientProxy", serverSide = "enhancedbiomes.proxy.CommonProxy")
 	public static CommonProxy proxy;
-	@Instance("enhancedbiomes")
+
+	@Instance("MOD_ID")
 	public static EnhancedBiomesMod instance;
 
 	public static WorldType enhancedBiomesWorldType;
